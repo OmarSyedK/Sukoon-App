@@ -35,20 +35,26 @@ Sukoon leverages AI and mobile technology to:
 
 ## 📷 Screenshots
 
-1. Home Page
-![WhatsApp Image 2025-04-06 at 2 10 28 PM](https://github.com/user-attachments/assets/cdd09b39-2a8d-4d6b-a03f-d29892a548a2)
-2. Tools
-![WhatsApp Image 2025-04-06 at 2 10 28 PM (1)](https://github.com/user-attachments/assets/382fdbf7-1b44-448d-aec5-fba6db6706f9)
-3. User Login
-![WhatsApp Image 2025-04-06 at 2 10 28 PM (1)](https://github.com/user-attachments/assets/9b91c7ba-c274-47ed-9317-9aaa7039e355)
-4. Video Tutorials
-![WhatsApp Image 2025-04-06 at 2 10 29 PM (1)](https://github.com/user-attachments/assets/ae294078-5e35-4c64-b54c-b0b13d920d78)
-5. Exercise Section
- ![WhatsApp Image 2025-04-06 at 2 10 30 PM](https://github.com/user-attachments/assets/cab51267-fed7-4154-a0e3-8c2a9397c8fe)
-6.Moments
-![WhatsApp Image 2025-04-06 at 2 10 30 PM (1)](https://github.com/user-attachments/assets/12aa29ca-ab3b-4248-aa88-c39e579ae9e1)
-7.Doctor Appointment
-![WhatsApp Image 2025-04-06 at 2 10 31 PM](https://github.com/user-attachments/assets/ebcaa2ff-2e0b-4ca4-bb19-c419a783b0cc)
+1. **Home Page**  
+   ![Home Page](https://github.com/user-attachments/assets/cdd09b39-2a8d-4d6b-a03f-d29892a548a2)
+
+2. **Tools**  
+   ![Tools](https://github.com/user-attachments/assets/382fdbf7-1b44-448d-aec5-fba6db6706f9)
+
+3. **User Login**  
+   ![Login](https://github.com/user-attachments/assets/9b91c7ba-c274-47ed-9317-9aaa7039e355)
+
+4. **Video Tutorials**  
+   ![Videos](https://github.com/user-attachments/assets/ae294078-5e35-4c64-b54c-b0b13d920d78)
+
+5. **Exercise Section**  
+   ![Exercise](https://github.com/user-attachments/assets/cab51267-fed7-4154-a0e3-8c2a9397c8fe)
+
+6. **Moments**  
+   ![Moments](https://github.com/user-attachments/assets/12aa29ca-ab3b-4248-aa88-c39e579ae9e1)
+
+7. **Doctor Appointment**  
+   ![Doctor](https://github.com/user-attachments/assets/ebcaa2ff-2e0b-4ca4-bb19-c419a783b0cc)
 
 ---
 
@@ -73,31 +79,31 @@ Sukoon leverages AI and mobile technology to:
 
 ## 👥 Team
 
-- Mohammed Waseemuddin
-- ![My profil epic](https://github.com/user-attachments/assets/eb092aed-50e3-47b3-acf8-fe10bba03003)
-- Omar Syed Kaiser
-- ![WhatsApp Image 2025-04-06 at 2 43 58 PM](https://github.com/user-attachments/assets/8ca33838-0718-41be-90dc-c7d1c4cee23c)
-- Sama Khan
-- ![PIC](https://github.com/user-attachments/assets/574e1ee6-2f4c-4853-b094-3f74b1a64e2d)
-- Ahmed Qudsi
-- ![PIC](https://github.com/user-attachments/assets/d8a9fe24-2829-4587-b394-5e3637d5402e)
+### Mohammed Waseemuddin  
+![Waseem](https://github.com/user-attachments/assets/eb092aed-50e3-47b3-acf8-fe10bba03003)
+
+### Omar Syed Kaiser  
+![Omar](https://github.com/user-attachments/assets/8ca33838-0718-41be-90dc-c7d1c4cee23c)
+
+### Sama Khan  
+![Sama](https://github.com/user-attachments/assets/574e1ee6-2f4c-4853-b094-3f74b1a64e2d)
+
+### Ahmed Qudsi  
+![Ahmed](https://github.com/user-attachments/assets/d8a9fe24-2829-4587-b394-5e3637d5402e)
 
 ---
 
 ## 📚 Research & References
 
-1. WHO Maternal Mental Health – [link](https://www.who.int/news-room/fact-sheets/detail/mental-health-of-women-during-pregnancy-and-after-childbirth)  
-2. CDC Postpartum Report – [link](https://www.cdc.gov/reproductivehealth/depression/index.htm)  
-3. Harvard Study on Isolation – [link](https://news.harvard.edu/gazette/story/2023/04/loneliness-rivals-smoking-as-health-risk/)  
-4. The Feminine Mystique (Betty Friedan, 1963)  
-5. McKinsey HealthTech 2024 – [link](https://www.mckinsey.com/industries/healthcare)![WhatsApp Image 2025-04-06 at 2 43 58 PM](https://github.com/user-attachments/assets/c91658aa-89b8-4e38-8717-13089cac936c)![PIC](https://github.com/user-attachments/assets/526f0e01-7d2a-44cc-b081-40e059090eec)
-
-
+1. [WHO Maternal Mental Health](https://www.who.int/news-room/fact-sheets/detail/mental-health-of-women-during-pregnancy-and-after-childbirth)  
+2. [CDC Postpartum Report](https://www.cdc.gov/reproductivehealth/depression/index.htm)  
+3. [Harvard Study on Isolation](https://news.harvard.edu/gazette/story/2023/04/loneliness-rivals-smoking-as-health-risk/)  
+4. *The Feminine Mystique* (Betty Friedan, 1963)  
+5. [McKinsey HealthTech 2024](https://www.mckinsey.com/industries/healthcare)
 
 ---
 
 ## 🔮 Future Roadmap
-
 
 - 🗣️ Voice input & tone-based emotion detection  
 - 🌐 More regional language packs  
@@ -107,4 +113,4 @@ Sukoon leverages AI and mobile technology to:
 
 ---
 
-> “No mom should suffer in silence. Sukoon is not just an app — it’s a companion.” 💖
+> *“No mom should suffer in silence. Sukoon is not just an app — it’s a companion.”* 💖
