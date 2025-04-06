@@ -41,7 +41,6 @@ Sukoon leverages AI and mobile technology to:
 <table>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/cdd09b39-2a8d-4d6b-a03f-d29892a548a2" width="250"/></td>
-    <td><img src="https://github.com/user-attachments/assets/382fdbf7-1b44-448d-aec5-fba6db6706f9" width="250"/></td>
     <td><img src="https://github.com/user-attachments/assets/9b91c7ba-c274-47ed-9317-9aaa7039e355" width="250"/></td>
   </tr>
   <tr>
