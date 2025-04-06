@@ -5,6 +5,10 @@
   <b>Built using Flutter + Google AI</b>
 </p>
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1b38b5af-c1e8-48e9-a1ad-b9499ee38fdc" width="150"/>
+</p>
+
 ---
 
 ## 💡 Problem
@@ -40,16 +44,18 @@ Sukoon leverages AI and mobile technology to:
 
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/cdd09b39-2a8d-4d6b-a03f-d29892a548a2" width="250"/></td>
-    <td><img src="https://github.com/user-attachments/assets/9b91c7ba-c274-47ed-9317-9aaa7039e355" width="250"/></td>
+    <td align="center"><b>Home Page</b><br><img src="https://github.com/user-attachments/assets/cdd09b39-2a8d-4d6b-a03f-d29892a548a2" width="220"/></td>
+    <td align="center"><b>Login Page</b><br><img src="https://github.com/user-attachments/assets/9b91c7ba-c274-47ed-9317-9aaa7039e355" width="220"/></td>
+    <td align="center"><b>Doctor Finder</b><br><img src="https://github.com/user-attachments/assets/ac509023-73d2-42c8-b905-1e19c073792b" width="220"/></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/ae294078-5e35-4c64-b54c-b0b13d920d78" width="250"/></td>
-    <td><img src="https://github.com/user-attachments/assets/cab51267-fed7-4154-a0e3-8c2a9397c8fe" width="250"/></td>
-    <td><img src="https://github.com/user-attachments/assets/12aa29ca-ab3b-4248-aa88-c39e579ae9e1" width="250"/></td>
+    <td align="center"><b>Chat Bot</b><br><img src="https://github.com/user-attachments/assets/20f4f5f2-ba80-4d1b-880b-788ec8b23c5b" width="220"/></td>
+    <td align="center"><b>Video Tutorials</b><br><img src="https://github.com/user-attachments/assets/ae294078-5e35-4c64-b54c-b0b13d920d78" width="220"/></td>
+    <td align="center"><b>Exercises</b><br><img src="https://github.com/user-attachments/assets/cab51267-fed7-4154-a0e3-8c2a9397c8fe" width="220"/></td>
   </tr>
   <tr>
-    <td colspan="3" align="center"><img src="https://github.com/user-attachments/assets/ebcaa2ff-2e0b-4ca4-bb19-c419a783b0cc" width="250"/></td>
+    <td align="center"><b>Moments</b><br><img src="https://github.com/user-attachments/assets/12aa29ca-ab3b-4248-aa88-c39e579ae9e1" width="220"/></td>
+    <td colspan="2" align="center"><b>Doctor Appointment</b><br><img src="https://github.com/user-attachments/assets/ebcaa2ff-2e0b-4ca4-bb19-c419a783b0cc" width="220"/></td>
   </tr>
 </table>
 
@@ -78,10 +84,22 @@ Sukoon leverages AI and mobile technology to:
 
 <table>
   <tr align="center">
-    <td><img src="https://github.com/user-attachments/assets/eb092aed-50e3-47b3-acf8-fe10bba03003" width="100" height="100" style="border-radius: 50%;"/><br><b>Mohammed Waseemuddin</b></td>
-    <td><img src="https://github.com/user-attachments/assets/8ca33838-0718-41be-90dc-c7d1c4cee23c" width="100" height="100" style="border-radius: 50%;"/><br><b>Omar Syed Kaiser</b></td>
-    <td><img src="https://github.com/user-attachments/assets/574e1ee6-2f4c-4853-b094-3f74b1a64e2d" width="100" height="100" style="border-radius: 50%;"/><br><b>Sama Khan</b></td>
-    <td><img src="https://github.com/user-attachments/assets/3ed626d0-44a2-49b2-a673-1b62256af599" width="100" height="100" style="border-radius: 50%;"/><br><b>Ahmed Qudsi</b></td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/eb092aed-50e3-47b3-acf8-fe10bba03003" width="100" height="100" style="border-radius: 50%; object-fit: cover; border: none;"><br>
+      <b>Mohammed Waseemuddin</b>
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/8ca33838-0718-41be-90dc-c7d1c4cee23c" width="100" height="100" style="border-radius: 50%; object-fit: cover; border: none;"><br>
+      <b>Omar Syed Kaiser</b>
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/574e1ee6-2f4c-4853-b094-3f74b1a64e2d" width="100" height="100" style="border-radius: 50%; object-fit: cover; border: none;"><br>
+      <b>Sama Khan</b>
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/3ed626d0-44a2-49b2-a673-1b62256af599" width="100" height="100" style="border-radius: 50%; object-fit: cover; border: none;"><br>
+      <b>Ahmed Qudsi</b>
+    </td>
   </tr>
 </table>
 
