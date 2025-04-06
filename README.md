@@ -5,10 +5,6 @@
   <b>Built using Flutter + Google AI</b>
 </p>
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/1b38b5af-c1e8-48e9-a1ad-b9499ee38fdc" width="150"/>
-</p>
-
 ---
 
 ## 💡 Problem
@@ -18,6 +14,10 @@ According to WHO, **1 in 5 mothers** experiences anxiety or depression during pr
 ---
 
 ## 🚀 Solution
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1b38b5af-c1e8-48e9-a1ad-b9499ee38fdc" width="160"/>
+</p>
 
 Sukoon leverages AI and mobile technology to:
 
@@ -42,20 +42,40 @@ Sukoon leverages AI and mobile technology to:
 
 ## 📷 Screenshots
 
-<table>
-  <tr>
-    <td align="center"><b>Home Page</b><br><img src="https://github.com/user-attachments/assets/cdd09b39-2a8d-4d6b-a03f-d29892a548a2" width="220"/></td>
-    <td align="center"><b>Login Page</b><br><img src="https://github.com/user-attachments/assets/9b91c7ba-c274-47ed-9317-9aaa7039e355" width="220"/></td>
-    <td align="center"><b>Doctor Finder</b><br><img src="https://github.com/user-attachments/assets/ac509023-73d2-42c8-b905-1e19c073792b" width="220"/></td>
+<table align="center">
+  <tr align="center">
+    <td>
+      <img src="https://github.com/user-attachments/assets/cdd09b39-2a8d-4d6b-a03f-d29892a548a2" width="250"/><br>
+      <b>Home Page</b>
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/9b91c7ba-c274-47ed-9317-9aaa7039e355" width="250"/><br>
+      <b>Mood Logger</b>
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/ac509023-73d2-42c8-b905-1e19c073792b" width="250"/><br>
+      <b>Doctor Finder</b>
+    </td>
   </tr>
-  <tr>
-    <td align="center"><b>Chat Bot</b><br><img src="https://github.com/user-attachments/assets/20f4f5f2-ba80-4d1b-880b-788ec8b23c5b" width="220"/></td>
-    <td align="center"><b>Video Tutorials</b><br><img src="https://github.com/user-attachments/assets/ae294078-5e35-4c64-b54c-b0b13d920d78" width="220"/></td>
-    <td align="center"><b>Exercises</b><br><img src="https://github.com/user-attachments/assets/cab51267-fed7-4154-a0e3-8c2a9397c8fe" width="220"/></td>
+  <tr align="center">
+    <td>
+      <img src="https://github.com/user-attachments/assets/20f4f5f2-ba80-4d1b-880b-788ec8b23c5b" width="250"/><br>
+      <b>Chat Bot</b>
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/ae294078-5e35-4c64-b54c-b0b13d920d78" width="250"/><br>
+      <b>Mindfulness</b>
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/cab51267-fed7-4154-a0e3-8c2a9397c8fe" width="250"/><br>
+      <b>Language Support</b>
+    </td>
   </tr>
-  <tr>
-    <td align="center"><b>Moments</b><br><img src="https://github.com/user-attachments/assets/12aa29ca-ab3b-4248-aa88-c39e579ae9e1" width="220"/></td>
-    <td colspan="2" align="center"><b>Doctor Appointment</b><br><img src="https://github.com/user-attachments/assets/ebcaa2ff-2e0b-4ca4-bb19-c419a783b0cc" width="220"/></td>
+  <tr align="center">
+    <td colspan="3">
+      <img src="https://github.com/user-attachments/assets/12aa29ca-ab3b-4248-aa88-c39e579ae9e1" width="250"/><br>
+      <b>Emergency Tools</b>
+    </td>
   </tr>
 </table>
 
@@ -85,19 +105,20 @@ Sukoon leverages AI and mobile technology to:
 <table>
   <tr align="center">
     <td>
-      <img src="https://github.com/user-attachments/assets/eb092aed-50e3-47b3-acf8-fe10bba03003" width="100" height="100" style="border-radius: 50%; object-fit: cover; border: none;"><br>
-      <b>Mohammed Waseemuddin</b>
+      <img src="https://github.com/user-attachments/assets/eb092aed-50e3-47b3-acf8-fe10bba03003" width="100" height="100" style="border-radius: 50%; border: 3px solid #ccc;"/><br>
+      <b>Mohammed Waseemuddin</b><br>
+      <a href="https://www.linkedin.com/in/mohammed1waseemuddin/" target="_blank">🔗 LinkedIn</a>
     </td>
     <td>
-      <img src="https://github.com/user-attachments/assets/8ca33838-0718-41be-90dc-c7d1c4cee23c" width="100" height="100" style="border-radius: 50%; object-fit: cover; border: none;"><br>
+      <img src="https://github.com/user-attachments/assets/8ca33838-0718-41be-90dc-c7d1c4cee23c" width="100" height="100" style="border-radius: 50%; border: 3px solid #ccc;"/><br>
       <b>Omar Syed Kaiser</b>
     </td>
     <td>
-      <img src="https://github.com/user-attachments/assets/574e1ee6-2f4c-4853-b094-3f74b1a64e2d" width="100" height="100" style="border-radius: 50%; object-fit: cover; border: none;"><br>
+      <img src="https://github.com/user-attachments/assets/574e1ee6-2f4c-4853-b094-3f74b1a64e2d" width="100" height="100" style="border-radius: 50%; border: 3px solid #ccc;"/><br>
       <b>Sama Khan</b>
     </td>
     <td>
-      <img src="https://github.com/user-attachments/assets/3ed626d0-44a2-49b2-a673-1b62256af599" width="100" height="100" style="border-radius: 50%; object-fit: cover; border: none;"><br>
+      <img src="https://github.com/user-attachments/assets/3ed626d0-44a2-49b2-a673-1b62256af599" width="100" height="100" style="border-radius: 50%; border: 3px solid #ccc;"/><br>
       <b>Ahmed Qudsi</b>
     </td>
   </tr>
