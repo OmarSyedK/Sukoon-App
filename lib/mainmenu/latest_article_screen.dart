@@ -1,54 +1,59 @@
 import 'package:flutter/material.dart';
 
 class LatestArticleScreen extends StatelessWidget {
-  const LatestArticleScreen({Key? key}) : super(key: key);
+  const LatestArticleScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Theme.of(context).brightness == Brightness.dark
+          ? const Color(0xFF1C1F2B) // Charcoal Blue background
+          : const Color(0xFFE6E6FA),
       appBar: AppBar(
+        backgroundColor: Theme.of(context).brightness == Brightness.dark
+            ? const Color(0xFF6A0DAD) // Deep Purple
+            : const Color.fromARGB(255, 245, 241, 245),
         title: const Text('Latest Articles'),
+        centerTitle: true,
       ),
       body: ListView(
         children: [
-          // Nutrition Category
-          _buildCategoryTile(
+          _buildCategorySection(
+            context,
             'Nutrition',
             [
               _buildArticleOption(
                 context,
                 'Food & Drink',
-                'images/food&drink.jpeg',
-                'Pregnancy diet: eating for two',
-                "We've all heard the phrase 'eating for two', but now that you're pregnant, should you really be doubling your food intake? The simple answer is no, but it's important to eat a healthy diet to ensure you have enough energy and get enough nutrients for both you and your baby."
-                "During the first and second trimesters, there is generally no need to increase your calorie intake. However, every woman is different and it's important to be your own guide on this journey - listen to your body and talk to your healthcare provider if you have any concerns. You may find that by switching to a more nutritionally dense diet, you are able to eat more if you feel hungry.\n\n"
-                "As for the final trimester, pregnant women carrying one baby are advised to eat an extra 200 calories a day. This number doubles according to the number of babies you are carrying - 400 extra calories for twins and 600 extra calories for triplets, for example.\n\n"
-                "So, what should you be eating?\n\n"
-                "Interestingly, in films and on TV we often hear the phrase 'eating for two' whenever cake or ice cream is on the menu. It's rare to see anyone ordering twice the mixed salad. It's important to remember that when you do increase your food intake, it should be the healthy stuff you eat more of not the junk food. "
-                "Now that you're pregnant, your diet is more important than ever. It's essential that your food provides all the goodness your body needs to make a person. This means eating a variety of fresh fruits and vegetables to ensure you get a mix of vitamins and minerals. When it comes to eating grains think brown. Brown rice, brown pasta and brown bread, are better substitutes than the white versions of these foods. Reduce your sugar and salt intake, and generally try to eat as healthily as you can. Don't starve yourself of treats just remember, everything in moderation!\n\n"
-                "Healthy weight gain\n\n"
-                "Women who were a healthy weight pre-pregnancy, gain on average between 25 and 35 lbs (11 16 kg). Women who were overweight, with a BMI over 25 before the pregnancy, should aim to put on less. Women who are underweight will be advised to put more. Speak to your healthcare provider if you want to find out what is an appropriate amount of weight gain for you. The phrase 'eating for two' isn't outdated, it just needs a new meaning for modern life. Instead of thinking about double the quantities, we should think of it as choosing foods that are good for our bodies the more variety you inculde, the bigger the range of nutrients you and your baby will be getting.\n\n"
-                "Written by Philips Avent in collaboration with scientists and perinatal psychologists\n\n"
-                "Sources: NHS: Have a healthy diet in pregnancy; NHS: Weight gain in pregnancy",
+                'images/food&drink.jpeg', 'Nourishing You and Your Little One',
+                "Welcome to a journey of nourishing both you and your growing baby! It's a common thought that pregnancy means 'eating for two,' but it's more about choosing wisely than doubling your portions. Let's gently explore how to fuel this beautiful time.\n\n"
+                "In your first and second trimesters, focus on maintaining a balanced diet without necessarily increasing your calorie intake. Each woman's journey is unique, so tune into what your body tells you. If you feel hungrier, opt for foods rich in nutrients—these will give you more energy.\n\n"
+                "As you approach the final trimester, adding around 200 extra calories daily is often recommended if you're carrying one baby. This number goes up with more babies: 400 extra for twins and 600 for triplets. Remember, it's about quality over quantity. \n\n"
+                "What should be on your plate? \n\n"
+                "You might have seen 'eating for two' portrayed with lots of sugary treats, but it's more about increasing the good stuff. During pregnancy, your food choices are incredibly important. They're the building blocks for your baby. Load up on a variety of fresh fruits and vegetables for a good mix of vitamins and minerals. Opt for brown grains like rice, pasta, and bread—they are great alternatives to their white counterparts. Try to keep sugar and salt in moderation.\n\n"
+                "Healthy Weight Gain \n\n"
+                "For women who started at a healthy weight, gaining between 25 to 35 lbs is typical. If you started with a higher or lower weight, this might be a bit different for you. It's great to chat with your healthcare provider to understand what's right for you. The old saying 'eating for two' just needs a modern twist: it's not about eating twice as much, but about making choices that nourish you both deeply. The more variety, the more nutrients for both of you!\n\n"
+                "This advice comes from a collaboration between Philips Avent and perinatal health experts.\n\n"
+                "Resources: NHS guides on healthy eating and weight gain during pregnancy.",
               ),
               _buildArticleOption(
                 context,
                 'Nutrition Essentials',
                 'images/nutrition.jpg',
                 'Eating for Two - the Expert View Myth vs. Fact',
-                'Have you heard the old pregnancy myth that says "you are eating for two"? Many women think they can double up their food intake and all the extra weight they gain as a result will reduce after pregnancy.\n\n'
-                'However, this is not the case! Before pregnancy, approximately 2000 kcal per day is considered normal, depending on your weight and activity level. Gaining excessive weight during pregnancy is not advised. If you\'re healthy, there is no need to eat more during the first two trimesters. However, you can add about 200 kcal to your diet per day in the 3rd trimester.\n\n'
-                'What are the extra calories for?\n\n'
-                'The extra calories provide energy and nutrients for your baby. They are also required for the growth of the placenta, increase in blood volume, and formation of amniotic fluid. This extra energy intake enables your body to perform all the extra functions of pregnancy. While 200 kcal may not sound like a lot, you are most likely less active and therefore burn fewer calories in the 3rd trimester. So, how much food is 200 kcal, really? It depends! 200 kcal is 2 cups of natural yoghurt OR 12 tomatoes OR 3 eggs OR 2 slices of bread each day.\n\n'
-                'In conclusion: if you are healthy, do not eat for two, but only for 1.1. And only in the 3rd trimester.\n\n'
-                'References:\n'
-                'Better Health: Start for Life: Healthy eating in pregnancy\n'
-                'Overview Weight management before, during and after pregnancy',
+                "Let's address the common myth: 'eating for two.' While the idea of doubling your food intake might seem appealing, it's not quite right. Think of it more as nourishing both you and your baby with the right fuel.\n\n"
+                "Before pregnancy, around 2000 kcal daily is typical, but this varies based on your weight and how active you are. During pregnancy, gaining too much weight isn't recommended. If you're in good health, you don't necessarily need to increase food intake in the first two trimesters. Adding about 200 kcal daily during the third trimester is generally suggested.\n\n"
+                "What does this extra energy do?\n\n"
+                "These extra calories fuel your baby's growth, help develop the placenta, boost your blood volume, and create amniotic fluid. It's like giving your body a little extra support for all the work it's doing. 200 kcal might not sound like a lot, but remember, you might be less active now, so you're not burning as much energy. To put it in perspective, 200 kcal could be 2 cups of natural yogurt, 12 tomatoes, 3 eggs, or 2 slices of bread each day.\n\n"
+                "To sum it up: if you're healthy, focus on nourishing for one, with a little extra in the third trimester.\n\n"
+                "Further Reading:\n"
+                "Better Health: Start for Life: Healthy Eating in Pregnancy\n"
+                "Overview: Managing Your Weight Before, During, and After Pregnancy",
               ),
             ],
           ),
-          // Body Category
-          _buildCategoryTile(
+          _buildCategorySection(
+            context,
             'Body',
             [
               _buildArticleOption(
@@ -56,25 +61,25 @@ class LatestArticleScreen extends StatelessWidget {
                 'Weight Gain',
                 'images/weightgain.jpg',
                 'Important Facts about Weight Gain',
-                'When you are pregnant, the traditional narrative is that you are eating for two, right? This is true, but you need only 200 extra calories a day, per baby you are carrying and only typically from the third trimester. Gaining too much or too little weight can be harmful to both you and your baby it\'s all about balance.\n\n'
-                'What is the \'correct\' amount of weight gain during pregnancy?\n\n'
-                'Every woman is different and that means pre-pregnancy weight, too. In general, you gain approximately between 2 and 4 Ibs. in the first trimester and 1 lb. for each week after that. A woman of average weight gains between 22 and 26 Ibs. (10 12.5 kg) during pregnancy. Women with a lower pre-pregnancy weight can gain between 28 and 40 Ibs. (12.5 - 18 kg), while women with a BMI of 25 or more only need to gain between 15 and 25 Ibs. (6-11 kg).\n\n'
-                'If you\'re carrying twins, your pre-pregnancy weight will determine your overall weight gain between 31 and 50 Ibs. (14 22.5 kg) (normal weight) and between 25 and 42 lbs. (11 19 kg) (overweight). Weight gain during pregnancy is especially important when you expecting twins, since your weight affects the weight of your babies. Twins are usually delivered early, so they benefit from some extra weight at birth.\n\n'
-                'What happens if you gain too little or too much weight?\n\n'
-                'Women who gain too much weight have a higher chance of a Cesarean delivery. They also tend to retain much of their weight after pregnancy and start with a higher weight in their following pregnancies. This can be a problem with women who are already overweight, as this increases their risk of certain pregnancy-related hypertensive disorders.\n\n'
-                'References\n'
-                'ACOG: Weight Gain During Pregnancy\n'
-                'Tommy\'s: How much weight should gain in pregnancy?\n'
-                'Weight gain in pregnancy- NHS',
+                "It's common to hear that during pregnancy, you're 'eating for two.' While there's some truth to this, remember it's about making nourishing choices. Typically, you might need only around 200 extra calories a day for each baby, usually starting from the third trimester. Finding a balance is key, as gaining too much or too little weight can affect both you and your little one.\n\n"
+                "What's a healthy amount of weight gain during pregnancy?\n\n"
+                "Each of us is wonderfully unique, so the right amount of weight gain depends on your pre-pregnancy weight. In general, you might gain between 2 to 4 lbs in the first trimester, then about 1 lb each week after that. If you started at an average weight, expect to gain between 22 to 26 lbs. Those starting at a lower weight might gain between 28 to 40 lbs, while those with a BMI over 25 might gain 15 to 25 lbs.\n\n"
+                "If you're expecting twins, your pre-pregnancy weight guides your overall weight gain: between 31 and 50 lbs if you're at a normal weight, or 25 to 42 lbs if you're overweight. Gaining the right amount of weight is extra important with twins, as it directly affects their weight at birth. Twins often arrive earlier, so a little extra weight can be a real plus.\n\n"
+                "What if you gain too much or too little?\n\n"
+                "Gaining too much weight might lead to a higher chance of a Cesarean delivery. It can also mean retaining more weight after pregnancy, which can be challenging for those already managing a higher weight. This can increase the risk of pregnancy-related high blood pressure issues.\n\n"
+                "For more information:\n"
+                "ACOG: Guidance on Weight Gain During Pregnancy\n"
+                "Tommy's: Understanding Weight Gain in Pregnancy\n"
+                "NHS: Insights on Weight Gain in Pregnancy",
               ),
               _buildArticleOption(
                 context,
                 'Body Changes',
                 'images/bodychanges.jpg',
                 'My Body is Changing',
-                'At some point in your pregnancy, you may look at your body in the mirror and not quite recognize it. Your body goes through a lot of changes from a growing baby bump to an increase in breast size. You may also notice more hair in areas, such as your chin and upper lip. If that were not enough, stretch marks might start to appear on your belly.\n\n'
-                'All the changes to your body are normal, but even though they are to be expected, you may not love everything you see. One thing you can do to deal with body image issues is exercise. Exercise can help you feel strong and fit. It can also improve your mood and help you relax. Eating well, pampering yourself and surrounding yourself with positive, supportive people can also help you feel healthy and improve your overall well-being.\n\n'
-                'Instead of focusing on baby weight or stretch marks, think about what an amazing job your body is doing to nourish your baby. Knowing the changes happening to your body are essential for your baby\'s development and well-being may help you with any body image issues that come up.',
+                "During pregnancy, it's natural to look in the mirror and see someone a little different. Your body is going through amazing transformations, from a growing baby bump to changes in breast size. You might also notice hair in new areas, like your chin, and stretch marks might start appearing on your belly.\n\n"
+                "These changes are normal and part of the incredible journey of creating new life. Still, it's understandable if you don't love every change you see. A great way to embrace these changes is through exercise, which can help you feel strong and uplift your mood. Eating well, showing yourself extra care, and surrounding yourself with supportive people can also make a big difference in how you feel.\n\n"
+                "Instead of dwelling on weight gain or stretch marks, marvel at the amazing job your body is doing to nourish your baby. Remember, these changes are essential for your baby's growth and happiness, which may help you feel more at peace with any body image concerns that arise.",
               ),
             ],
           ),
@@ -83,23 +88,35 @@ class LatestArticleScreen extends StatelessWidget {
     );
   }
 
-  // Build category tile
-  Widget _buildCategoryTile(String categoryName, List<Widget> articles) {
+  Widget _buildCategorySection(BuildContext context, String categoryName, List<Widget> articleOptions) {
     return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Padding(
-          padding: const EdgeInsets.all(8.0),
+          padding: const EdgeInsets.all(16.0),
           child: Text(
             categoryName,
-            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+            style: TextStyle(
+              fontSize: 22,
+              fontWeight: FontWeight.bold,
+              color: Theme.of(context).brightness == Brightness.dark
+                  ? Colors.white
+                  : Colors.black,
+            ),
           ),
         ),
-        ...articles,
+        GridView.count(
+          crossAxisCount: 2,
+          shrinkWrap: true,
+          physics: const NeverScrollableScrollPhysics(),
+          padding: const EdgeInsets.all(8.0),
+          children: articleOptions,
+        ),
       ],
     );
+    
   }
 
-  // Build article option
   Widget _buildArticleOption(
     BuildContext context,
     String title,
@@ -107,21 +124,94 @@ class LatestArticleScreen extends StatelessWidget {
     String heading,
     String content,
   ) {
-    return ListTile(
-      leading: Image.asset(imagePath, width: 50, height: 50),
-      title: Text(title, style: const TextStyle(fontWeight: FontWeight.bold)),
-      onTap: () {
-        Navigator.push(
-          context,
-          MaterialPageRoute(
-            builder: (context) => ArticleDetailScreen(
-              imagePath: imagePath,
-              heading: heading,
-              content: content,
+    return Card(
+      elevation: 8,
+      clipBehavior: Clip.antiAlias,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(20),
+      ),
+      shadowColor: Colors.black.withOpacity(0.3),
+       margin: const EdgeInsets.all(8),
+      
+      child: InkWell(
+        onTap: () {
+          Navigator.push(
+            context,
+            PageRouteBuilder(
+              pageBuilder: (context, animation, secondaryAnimation) => ArticleDetailScreen(
+                imagePath: imagePath,
+                heading: heading,
+                content: content,
+              ),
+              transitionsBuilder: (context, animation, secondaryAnimation, child) {
+                return FadeTransition(
+                  opacity: animation,
+                  child: child,
+                );
+              },
             ),
-          ),
-        );
-      },
+          );
+        },
+        child: Stack(
+          alignment: Alignment.bottomLeft,
+          
+          children: [
+           Hero(
+              tag: imagePath,
+              child: Image.asset(
+                imagePath,
+                height: 200,
+                width: double.infinity,
+                fit: BoxFit.cover,
+              ),
+            ),
+            Container(
+               padding: const EdgeInsets.all(16),
+              decoration: BoxDecoration(
+               
+                gradient: LinearGradient(
+                  colors: [
+                    Colors.black.withOpacity(0.6),
+                    Colors.transparent
+                  ],
+                  begin: Alignment.bottomCenter, 
+                  end: Alignment.topCenter
+                ),
+              ),
+                child: Text(
+                title,
+                 style: TextStyle(
+                  fontSize: 14,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white,
+                ),
+              ),
+            ),
+            Positioned(
+              top: 10,
+              left: 10,
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(10),
+                child: Container(
+                  color: const Color(0xFFD8BFD8).withOpacity(0.8),
+                  padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const Icon(Icons.article, color: Colors.white, size: 16),
+                      const SizedBox(width: 4),
+                      Text(
+                        'Articles',
+                        style: const TextStyle(color: Colors.white, fontSize: 12),
+                     ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
@@ -132,41 +222,61 @@ class ArticleDetailScreen extends StatelessWidget {
   final String content;
 
   const ArticleDetailScreen({
-    Key? key,
+    super.key,
     required this.imagePath,
     required this.heading,
     required this.content,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Theme.of(context).brightness == Brightness.dark
+          ? const Color(0xFF1C1F2B) // Charcoal Blue background
+          : const Color(0xFFE6E6FA),
       appBar: AppBar(
+        backgroundColor: Theme.of(context).brightness == Brightness.dark
+            ? const Color(0xFF6A0DAD) // Deep Purple
+            : const Color(0xFFD8BFD8),
         title: Text(heading),
+        centerTitle: true,
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: SingleChildScrollView(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              // Display image
-              Image.asset(imagePath),
-              const SizedBox(height: 16),
-              // Display heading
-              Text(
-                heading,
-                style: const TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+      body: SingleChildScrollView(
+        padding: const EdgeInsets.all(20),
+        child: Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: <Widget>[
+          Hero(
+            tag: imagePath,
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(20),
+              child: Image.asset(
+                imagePath,
+                fit: BoxFit.cover,
+                height: 250,
+                width: double.infinity,
               ),
-              const SizedBox(height: 16),
-              // Display content
-              Text(
-                content,
-                style: const TextStyle(fontSize: 18),
-              ),
-            ],
+            ),
           ),
-        ),
+          const SizedBox(height: 20),
+          Text(
+            heading,
+            style: TextStyle(
+                fontSize: 28,
+                fontWeight: FontWeight.bold,
+                color: Theme.of(context).brightness == Brightness.dark
+                    ? Colors.white
+                    : Colors.black),
+          ),
+          const SizedBox(height: 16),
+          Text(
+            content,
+            style: TextStyle(
+                fontSize: 18,
+                color: Theme.of(context).brightness == Brightness.dark
+                    ? Colors.white
+                    : Colors.black),
+            textAlign: TextAlign.justify,
+          ),
+        ]),
       ),
     );
   }
